@@ -1,12 +1,12 @@
 import './App.css';
-// import StatefulGreeting from './components/StatefulGreeting';
-import NavBarSample from './components/NavBarSample';
+import EventsClass from './components/EventsClass';
+import EventsFunctional from './components/EventsFunctional';
 
 function App() {
   return (
     <div className="App">
-      {/* <StatefulGreeting greeting='This is a statful component!' name='Josh' /> */}
-      <NavBarSample />
+      <EventsFunctional />
+      <EventsClass />
     </div>
   );
 }
